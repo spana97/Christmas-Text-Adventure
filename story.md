@@ -28,3 +28,48 @@ What do you do?
 - [Look around you](#investigate-look-around)
 - [Head towards Santa's workshop](#workshop-approach)
 - [Head to the nearest elf](#elf-approach)
+## Phone
+ 
+### phone-call-santa
+ 
+You dial the number you found after hacking into the Interpol database.
+ 
+It rings. And rings...
+ 
+Until you hear, *"Ho ho ho! Merry Christmas! Please leave a message after the bell."*
+ 
+Voicemail. Obviously it wouldn't be that easy.
+ 
+- [Sigh dramatically and hang up](#phone-sigh)
+### phone-sigh
+ 
+Frustrated, you try again, and again you hear: *"Ho ho ho! Merry Christmas! Please leave a message after the bell."*
+ 
+- [Shake your head and smoke a cigarette](#phone-smoke-cigarette)
+- [Throw your phone into the snow in anger](#phone-throw-phone)
+### phone-smoke-cigarette
+ 
+You take a long, deep drag.
+ 
+You start reassessing your life decisions that have led up to this point, and begin to question whether saving Christmas is even worth it.
+ 
+Unfortunately, you're out of cigarettes now, but maybe this will finally give you the push you need to quit for good.
+ 
+Whilst you savour your last one, you start to formulate a plan.
+ 
+- [Look around you](#investigate-look-around)
+- [Head towards Santa's workshop](#workshop-approach)
+- [Head to the nearest elf](#elf-approach)
+### phone-throw-phone
+ 
+As the anger fades, your shoulders begin to sag as you realise how out of your depth you really are.
+ 
+Maybe everyone at the station was right. Maybe there's no such thing as Santa.
+ 
+But no — who was that on the voicemail?
+ 
+Your phone is gone, leaving you feeling strangely cut off from the world, but even more determined to solve what is actually happening here.
+ 
+- [Look around you](#investigate-look-around)
+- [Head towards Santa's workshop](#workshop-approach)
+- [Head to the nearest elf](#elf-approach)
