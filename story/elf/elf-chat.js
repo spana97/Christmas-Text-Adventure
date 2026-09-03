@@ -89,8 +89,8 @@ export const elfChatNodes = [
         nextText: 'elf-ask-about-family'
       },
       {
-        text: 'Ask about the reindeer',
-        nextText: 'elf-ask-about-reindeer'
+        text: 'Ask about the workers',
+        nextText: 'elf-ask-about-workers'
       },
     ]
   },
@@ -100,8 +100,8 @@ export const elfChatNodes = [
     text: 'He\'s been having some trouble at home.',
     options: [
       {
-        text: 'Ask about the reindeer',
-        nextText: 'elf-ask-about-reindeer'
+        text: 'Ask about the workers',
+        nextText: 'elf-ask-about-workers'
       },
     ]
   },

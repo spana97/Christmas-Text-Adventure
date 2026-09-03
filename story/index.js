@@ -1,9 +1,10 @@
 import { introNodes } from './intro.js'
 import { phoneNodes } from './phone.js'
-import { investigateNodes } from './investigate.js'
-import { workshopNodes } from './workshop.js'
 import { elfChatNodes } from './elf/elf-chat.js'
 import { elfFightNodes } from './elf/elf-fight.js'
+import { investigateNodes } from './investigate.js'
+import { workshopNodes } from './workshop.js'
+import { stableNodes } from './stables.js'
 
 export const textNodes = [
   ...introNodes,
@@ -12,4 +13,5 @@ export const textNodes = [
   ...workshopNodes,
   ...elfChatNodes,
   ...elfFightNodes,
+  ...stableNodes
 ]

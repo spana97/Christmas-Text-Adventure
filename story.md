@@ -149,7 +149,7 @@ He takes another drag.
 You get the feeling that, for once, someone here might actually tell you something useful.
 
 - [Ask about his family](#elf-ask-about-family)
-- [Ask about the reindeer](#elf-ask-about-reindeer)
+- [Ask about the workers](#elf-ask-about-workers)
 
 ### elf-ask-about-family
 
@@ -159,9 +159,9 @@ He flicks the cigarette butt into the snow and slowly turns away.
 
 You've finally got something to work with.
 
-- [Ask about the reindeer](#elf-ask-about-reindeer)
+- [Ask about the workers](#elf-ask-about-workers)
 
-### elf-ask-about-reindeer
+### elf-ask-about-workers
 
 *"Look kid, if you're looking for answers, you might want to speak to the reindeer handlers."*
 
@@ -288,3 +288,62 @@ Eventually, they sigh.
 You've got another chance to ask your questions.
 
 - [Ask about Santa](#elf-ask-about-santa)
+
+## Investigate
+
+### investigate-look-around
+
+You take a moment to step back and take in the magical world around you.
+
+- [Look around](#investigate-look-roll)
+
+### investigate-look-roll
+
+You start searching around you, looking past the snow and the thickening fog.
+
+**Roll a D20**
+
+- [1: Critical fail](#investigate-crit-fail-look)
+- [2-9: Fail](#investigate-fail-look)
+- [10-19: Success](#investigate-success-look)
+- [20: Critical success](#investigate-crit-success-look)
+
+### investigate-crit-fail-look
+
+The wind howls around you, and the blizzard gives you little more than a wall of white.
+
+You can barely make out the workshop in the distance. A cold sense of dread settles in — you feel like you're missing something important.
+
+- [Try to call the workshop phone](#phone-call-santa)
+- [Walk to the workshop](#workshop-approach)
+
+### investigate-fail-look
+
+The wind howls around you, and the blizzard starts to pick up.
+
+You can barely make out the workshop or the elf village in the distance. Something about this place feels wrong, but you can't quite put your finger on it.
+
+- [Try to call the workshop phone](#phone-call-santa)
+- [Walk to the workshop](#workshop-approach)
+- [Head towards the elves](#elf-approach)
+
+### investigate-success-look
+
+You spot a set of fresh tracks disappearing into the snow.
+
+They're too small to be Santa's boots, but they seem to lead towards the stables.
+
+- [Follow the tracks](#stables-arrive)
+- [Head towards the workshop instead](#workshop-approach)
+
+### investigate-crit-success-look
+
+Something catches your eye beneath the snow.
+
+You brush it away and find a torn piece of red fabric, caught on a broken wooden fence post. It looks like it came from Santa's coat.
+
+Beside it are fresh footprints leading towards the stables.
+
+- [Follow the footprints towards the stables](#stables-arrive)
+- [Take the fabric and head towards the workshop](#workshop-approach)
+

@@ -11,11 +11,12 @@ export const introNodes = [
   },
   {
     id: 'intro-crossroads',
-    text: 'You see smoke billowing from a workshop in the distance. You can hear the faint sound of bells ringing and the smell of gingerbread in the air.',
+    text: 'You see smoke billowing from a workshop and wooden buildings in the distance. You can hear the faint sound of bells ringing and the smell of gingerbread in the air.',
     options: [
       {
         text: 'Try calling Santa on the phone',
         nextText: 'phone-call-santa',
+        setState: { hasCalledSanta: true }
       },
       {
         text: 'Look around you',
@@ -26,7 +27,7 @@ export const introNodes = [
         nextText: 'workshop-approach',
       },
       {
-        text: 'Head to the nearest elf',
+        text: 'Head to the elf village',
         nextText: 'elf-approach',
       },
     ],

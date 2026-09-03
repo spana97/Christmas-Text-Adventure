@@ -8,12 +8,17 @@ const startingItems = {
   phone: true,
 }
 
+const startingState = {
+  hasCalledSanta: false,
+}
+
 let state = {}
 
 function startGame() {
 
   state = {
-    ...startingItems
+    ...startingItems,
+    ...startingState
   }
 
   showTextNode('intro-prologue')
